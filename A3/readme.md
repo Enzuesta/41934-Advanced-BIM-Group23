@@ -8,6 +8,7 @@
 ## 3A Analyse use case
 - Goal: Goal of the tool / workflow in one sentence. i.e. to support the user to calculate the total total cost of the project.
 The tool should give the user the possibility to fast and easy investigate the quality of daylight in an earlier stage of modelling.
+
 - Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
 
 ## 3B Propose (a design) for a tool / workflow
