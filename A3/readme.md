@@ -12,7 +12,9 @@ The tool should give the user the possibility to fast and easy investigate the q
 
 - Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
 
-Please see: [BPMN - Group 23 - Old](https://github.com/Enzuesta/41934-Advanced-BIM-Group23/blob/main/BPMN%20-%20Daylight.bpmn)
+Please see process mapping below:
+
+![BPMN_Daylight](https://user-images.githubusercontent.com/112398725/197546660-99b6733f-4d84-4e98-8072-c1d6eeb8046c.svg)
 
 ## 3B Propose (a design) for a tool / workflow
 - Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report.
