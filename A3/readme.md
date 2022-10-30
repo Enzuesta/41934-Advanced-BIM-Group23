@@ -12,10 +12,9 @@ Use case is "Lighting analysis" and BIM Used as a forecast for performance of da
 
 
 ## 3B Propose (a design) for a tool / workflow
-- Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report.
 ![BPMN_Daylight](https://user-images.githubusercontent.com/112398725/197546660-99b6733f-4d84-4e98-8072-c1d6eeb8046c.svg)
 
-- Description of the process of your tool / workflow.
+The tools need an IFC-file and a requirement of the level of daylight to run and evaluate the performance. When this is done, the tool will gather information about the properties of the zone/room/building. These information includes areas of zones, walls, ceiling and floors along with assignmed materials and their respective properties for light reflectace. Furhtermore data about the glazing (LT-value), area, placement and orienration of the window is inheritated. From this state, the code will run a simulation to evaluate the daylight and present it for the client and if it complies with the acceptable requirement. 
 
 ## 3C Information exchange
 Please see the file 'Exchange Information Group23.xlsx' for the specification of what information the tool requires to run.
