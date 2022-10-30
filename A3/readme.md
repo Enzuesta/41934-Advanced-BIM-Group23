@@ -6,33 +6,30 @@
 </p>
 
 ## 3A Analyse use case
-- Goal: Goal of the tool / workflow in one sentence. i.e. to support the user to calculate the total total cost of the project.
-
 The tool should give the user the possibility to fast and easy investigate the quality of daylight in an earlier stage of modelling.
 
-- Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
+Use case is "Lighting analysis" and BIM Used as a forecast for performance of daylight. This tool relates to the design phase as illustrated and descirbed in 'Mapping BIM Uses' (p. 2).
 
-Please see process mapping below:
-
-![BPMN_Daylight](https://user-images.githubusercontent.com/112398725/197546660-99b6733f-4d84-4e98-8072-c1d6eeb8046c.svg)
 
 ## 3B Propose (a design) for a tool / workflow
 - Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report.
+![BPMN_Daylight](https://user-images.githubusercontent.com/112398725/197546660-99b6733f-4d84-4e98-8072-c1d6eeb8046c.svg)
+
 - Description of the process of your tool / workflow.
 
 ## 3C Information exchange
-- Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help.
-- IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
-- - Find in the IFC
-- - Find in an external sources i.e. BR18
-- - Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
+Please see the file 'Exchange Information Group23.xlsx' for the specification of what information the tool requires to run.
+IFC Entities and related property type:
+- IfcSpace: NetFloorArea.
+- IfcWindow: Translucency, Area, Orientation.
+- IfcWall: Area, Reflection colour.
+- IfcFloor: Area, Reflection colour.
+- IfcCeiling: Area, Reflection colour.
+
 
 ## 3D Value what is the potential improvement to offer by this tool
-This is the common question when developing tools and processes as an intrapreneur in a company. You should consider the business and societal value of this tool – does it save time to the company, does it make employees happier / more productive? Could it reduce material use in society?
-- Describe the business value (How does it create value for your business / employer)
-- Describe the societal value (How does it make the world better)
+This tool delivers a performance result of the daylight with only the IFC-file as an input. It can help the designers estimating the indoor environment according to daylight and saves both time and economi in the early design phase.
+If the client sets goals and requirements for the indoor environment this tool can help improving the daylight which leads to a better effectivity of its users and a better all around health conditions.
 
 ## 3E Delivery
-In this assignment we will focus on the input data that you need for your final tool / workflow.
-- Your tool/workflow: Description of how your tool / workflow would solve the use case
-- Delivery: Description of how you would make the tool / workflow - what steps would you go through?
+With the input from the client our tool can provide information about the level of daylight. The results can either actively be improved by the responsable parties and the client by changing properties of the windows, sizes or orientation, or the client can decide to go further with the already anayzed design proposal. If it is decided to change the design the model must go through the tool once again to evaluate the performance of daylight.
